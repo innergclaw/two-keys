@@ -44,9 +44,13 @@ If both are set, Formspree wins.
 
 The site is plain HTML, CSS, and JS at the repository root (`index.html`, `styles.css`, `script.js`, `favicon.svg`). `.nojekyll` is there so GitHub Pages serves the files as-is.
 
-**Settings → Pages → Build and deployment → Deploy from a branch → `main` → `/ (root)`.**
+The files are on `main`. Pages is not switched on yet: this environment cannot change that repository setting.
 
-A GitHub Actions workflow is also in `.github/workflows/pages.yml`. Use it only if the source is set to **GitHub Actions** instead of the branch. Do not enable both.
+Turn it on once:
+
+**Settings → Pages → Build and deployment → Deploy from a branch → Branch: `main` → Folder: `/ (root)` → Save.**
+
+The site will be at [https://innergclaw.github.io/two-keys/](https://innergclaw.github.io/two-keys/). The first publish can take a minute.
 
 ## Local preview
 
