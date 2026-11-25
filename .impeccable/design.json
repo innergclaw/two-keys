@@ -1,26 +1,295 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-25T09:10:00Z",
+  "generatedAt": "2026-11-25T09:16:30Z",
   "title": "Design System: Two Keys",
   "extensions": {
     "colorMeta": {
-      "cream": { "role": "neutral", "displayName": "Cream paper", "canonical": "#F3EBDD", "tonalRamp": ["#F3EBDD", "#EADFCC", "#E7D9C4", "#D9CBB6"] },
-      "ink": { "role": "neutral", "displayName": "Warm black", "canonical": "#1E1414", "tonalRamp": ["#1E1414", "#5A4A45", "#6B5A55", "#9C8B84"] },
-      "brick": { "role": "primary", "displayName": "Brick", "canonical": "#9E2B25", "tonalRamp": ["#9E2B25", "#E7A39C", "#F1C9C3"] }
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream paper",
+        "canonical": "#F3EBDD",
+        "tonalRamp": [
+          "oklch(15.0% 0.021 81.8)",
+          "oklch(26.4% 0.021 81.8)",
+          "oklch(37.9% 0.021 81.8)",
+          "oklch(49.3% 0.021 81.8)",
+          "oklch(60.7% 0.021 81.8)",
+          "oklch(72.1% 0.021 81.8)",
+          "oklch(83.6% 0.021 81.8)",
+          "oklch(95.0% 0.021 81.8)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Warm ink",
+        "canonical": "#1E1414",
+        "tonalRamp": [
+          "oklch(15.0% 0.017 18.6)",
+          "oklch(26.4% 0.017 18.6)",
+          "oklch(37.9% 0.017 18.6)",
+          "oklch(49.3% 0.017 18.6)",
+          "oklch(60.7% 0.017 18.6)",
+          "oklch(72.1% 0.017 18.6)",
+          "oklch(83.6% 0.017 18.6)",
+          "oklch(95.0% 0.017 18.6)"
+        ]
+      },
+      "brick": {
+        "role": "primary",
+        "displayName": "Brick",
+        "canonical": "#9E2B25",
+        "tonalRamp": [
+          "oklch(15.0% 0.061 27.7)",
+          "oklch(26.4% 0.108 27.7)",
+          "oklch(37.9% 0.152 27.7)",
+          "oklch(49.3% 0.152 27.7)",
+          "oklch(60.7% 0.152 27.7)",
+          "oklch(72.1% 0.152 27.7)",
+          "oklch(83.6% 0.091 27.7)",
+          "oklch(95.0% 0.025 27.7)"
+        ]
+      },
+      "blush": {
+        "role": "primary",
+        "displayName": "Blush",
+        "canonical": "#E7A39C",
+        "tonalRamp": [
+          "oklch(15.0% 0.061 25.7)",
+          "oklch(26.4% 0.082 25.7)",
+          "oklch(37.9% 0.082 25.7)",
+          "oklch(49.3% 0.082 25.7)",
+          "oklch(60.7% 0.082 25.7)",
+          "oklch(72.1% 0.082 25.7)",
+          "oklch(83.6% 0.082 25.7)",
+          "oklch(95.0% 0.025 25.7)"
+        ]
+      },
+      "blush-soft": {
+        "role": "primary",
+        "displayName": "Soft blush",
+        "canonical": "#F1C9C3",
+        "tonalRamp": [
+          "oklch(15.0% 0.046 28.1)",
+          "oklch(26.4% 0.046 28.1)",
+          "oklch(37.9% 0.046 28.1)",
+          "oklch(49.3% 0.046 28.1)",
+          "oklch(60.7% 0.046 28.1)",
+          "oklch(72.1% 0.046 28.1)",
+          "oklch(83.6% 0.046 28.1)",
+          "oklch(95.0% 0.025 28.1)"
+        ]
+      },
+      "mute": {
+        "role": "neutral",
+        "displayName": "Muted ink",
+        "canonical": "#6B5A55",
+        "tonalRamp": [
+          "oklch(15.0% 0.024 37.0)",
+          "oklch(26.4% 0.024 37.0)",
+          "oklch(37.9% 0.024 37.0)",
+          "oklch(49.3% 0.024 37.0)",
+          "oklch(60.7% 0.024 37.0)",
+          "oklch(72.1% 0.024 37.0)",
+          "oklch(83.6% 0.024 37.0)",
+          "oklch(95.0% 0.024 37.0)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper type",
+        "canonical": "#D8CBBE",
+        "tonalRamp": [
+          "oklch(15.0% 0.023 67.5)",
+          "oklch(26.4% 0.023 67.5)",
+          "oklch(37.9% 0.023 67.5)",
+          "oklch(49.3% 0.023 67.5)",
+          "oklch(60.7% 0.023 67.5)",
+          "oklch(72.1% 0.023 67.5)",
+          "oklch(83.6% 0.023 67.5)",
+          "oklch(95.0% 0.023 67.5)"
+        ]
+      },
+      "credit": {
+        "role": "neutral",
+        "displayName": "Credit",
+        "canonical": "#9C8B84",
+        "tonalRamp": [
+          "oklch(15.0% 0.023 43.7)",
+          "oklch(26.4% 0.023 43.7)",
+          "oklch(37.9% 0.023 43.7)",
+          "oklch(49.3% 0.023 43.7)",
+          "oklch(60.7% 0.023 43.7)",
+          "oklch(72.1% 0.023 43.7)",
+          "oklch(83.6% 0.023 43.7)",
+          "oklch(95.0% 0.023 43.7)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Card stock",
+        "canonical": "#EADFCC",
+        "tonalRamp": [
+          "oklch(15.0% 0.028 81.5)",
+          "oklch(26.4% 0.028 81.5)",
+          "oklch(37.9% 0.028 81.5)",
+          "oklch(49.3% 0.028 81.5)",
+          "oklch(60.7% 0.028 81.5)",
+          "oklch(72.1% 0.028 81.5)",
+          "oklch(83.6% 0.028 81.5)",
+          "oklch(95.0% 0.028 81.5)"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field fill",
+        "canonical": "#E7D9C4",
+        "tonalRamp": [
+          "oklch(15.0% 0.031 78.1)",
+          "oklch(26.4% 0.032 78.1)",
+          "oklch(37.9% 0.032 78.1)",
+          "oklch(49.3% 0.032 78.1)",
+          "oklch(60.7% 0.032 78.1)",
+          "oklch(72.1% 0.032 78.1)",
+          "oklch(83.6% 0.032 78.1)",
+          "oklch(95.0% 0.032 78.1)"
+        ]
+      },
+      "field-invalid": {
+        "role": "neutral",
+        "displayName": "Invalid wash",
+        "canonical": "#F6E4DC",
+        "tonalRamp": [
+          "oklch(15.0% 0.023 45.6)",
+          "oklch(26.4% 0.023 45.6)",
+          "oklch(37.9% 0.023 45.6)",
+          "oklch(49.3% 0.023 45.6)",
+          "oklch(60.7% 0.023 45.6)",
+          "oklch(72.1% 0.023 45.6)",
+          "oklch(83.6% 0.023 45.6)",
+          "oklch(95.0% 0.023 45.6)"
+        ]
+      },
+      "plate": {
+        "role": "neutral",
+        "displayName": "Plate fill",
+        "canonical": "color-mix(in srgb, #F3EBDD 70%, white)",
+        "tonalRamp": [
+          "oklch(15.0% 0.015 80.7)",
+          "oklch(26.4% 0.015 80.7)",
+          "oklch(37.9% 0.015 80.7)",
+          "oklch(49.3% 0.015 80.7)",
+          "oklch(60.7% 0.015 80.7)",
+          "oklch(72.1% 0.015 80.7)",
+          "oklch(83.6% 0.015 80.7)",
+          "oklch(95.0% 0.015 80.7)"
+        ]
+      },
+      "form-sheet": {
+        "role": "neutral",
+        "displayName": "Form sheet",
+        "canonical": "color-mix(in srgb, #F3EBDD 82%, white)",
+        "tonalRamp": [
+          "oklch(15.0% 0.017 84.6)",
+          "oklch(26.4% 0.017 84.6)",
+          "oklch(37.9% 0.017 84.6)",
+          "oklch(49.3% 0.017 84.6)",
+          "oklch(60.7% 0.017 84.6)",
+          "oklch(72.1% 0.017 84.6)",
+          "oklch(83.6% 0.017 84.6)",
+          "oklch(95.0% 0.017 84.6)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Paper rule",
+        "canonical": "#D9CBB6",
+        "tonalRamp": [
+          "oklch(15.0% 0.031 78.1)",
+          "oklch(26.4% 0.032 78.1)",
+          "oklch(37.9% 0.032 78.1)",
+          "oklch(49.3% 0.032 78.1)",
+          "oklch(60.7% 0.032 78.1)",
+          "oklch(72.1% 0.032 78.1)",
+          "oklch(83.6% 0.032 78.1)",
+          "oklch(95.0% 0.032 78.1)"
+        ]
+      },
+      "ink-line": {
+        "role": "neutral",
+        "displayName": "Ink rule",
+        "canonical": "#5A4A45",
+        "tonalRamp": [
+          "oklch(15.0% 0.023 38.1)",
+          "oklch(26.4% 0.023 38.1)",
+          "oklch(37.9% 0.023 38.1)",
+          "oklch(49.3% 0.023 38.1)",
+          "oklch(60.7% 0.023 38.1)",
+          "oklch(72.1% 0.023 38.1)",
+          "oklch(83.6% 0.023 38.1)",
+          "oklch(95.0% 0.023 38.1)"
+        ]
+      }
     },
     "typographyMeta": {
-      "display": { "displayName": "Abril Fatface", "purpose": "Name, section titles, prices, and the unlock button." },
-      "body": { "displayName": "Inter", "purpose": "Reading text and the form. Required by the brief." },
-      "label": { "displayName": "Tracked label", "purpose": "Deck labels above headings. Uppercase, 0.16em." }
+      "display": {
+        "displayName": "Display",
+        "purpose": "The name."
+      },
+      "display-section": {
+        "displayName": "Headline",
+        "purpose": "Section titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "The statement under a section label."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Offer amounts. Brick on paper, blush on the ink card."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "The 01 and 02 problem numerals, in brick."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "The unlock button."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Sentences, navigation, and fields."
+      },
+      "label": {
+        "displayName": "Section label",
+        "purpose": "Uppercase tracked labels. Brick on cream, blush on ink, soft blush on the close."
+      }
     },
     "shadows": [],
     "motion": [
-      { "name": "settle", "value": "0.9s cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "One screen-print settle on the brick key. Off when reduced motion is requested." }
+      {
+        "name": "settle",
+        "value": "0.9s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "One screen-print settle on the brick key, from a 6px / -5px shift. Off when reduced motion is requested."
+      },
+      {
+        "name": "scroll",
+        "value": "smooth",
+        "purpose": "In-page links scroll smoothly. Off when reduced motion is requested."
+      }
     ],
     "breakpoints": [
-      { "name": "name-email", "value": "40rem" },
-      { "name": "plates-and-columns", "value": "52rem" },
-      { "name": "steps-row", "value": "64rem" }
+      {
+        "name": "name-email",
+        "value": "40rem"
+      },
+      {
+        "name": "plates-and-columns",
+        "value": "52rem"
+      },
+      {
+        "name": "steps-row",
+        "value": "64rem"
+      }
     ]
   },
   "components": [
@@ -30,63 +299,134 @@
       "refersTo": "button-unlock",
       "description": "Full-width ink button. The words are the control: unlock the door.",
       "html": "<button class=\"ds-unlock\" type=\"button\">unlock the door</button>",
-      "css": ".ds-unlock { width: 100%; min-height: 4.5rem; border: 0; background: #1E1414; color: #F3EBDD; font-family: \"Abril Fatface\", Palatino, serif; font-size: 2rem; cursor: pointer; padding: 0.6rem 1rem 0.75rem; } .ds-unlock:hover { background: #9E2B25; } .ds-unlock:focus-visible { outline: 3px solid #9E2B25; outline-offset: 3px; }"
+      "css": ".ds-unlock { width: 100%; min-height: 4.5rem; border: 0; border-radius: 0; background: var(--ink); color: var(--cream); font-family: var(--display); font-size: clamp(1.8rem, 4vw, 2.5rem); font-weight: 400; cursor: pointer; padding: 0.6rem 1rem 0.75rem; } .ds-unlock:hover { background: var(--red); } .ds-unlock:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; } .ds-unlock:disabled { background: var(--mute); cursor: not-allowed; }"
     },
     {
       "name": "Paper card",
       "kind": "card",
       "refersTo": "card-paper",
-      "description": "Square paper card with a brick top edge. Used for revamp and new build.",
-      "html": "<article class=\"ds-card\"><h3>revamp</h3><p>$___ one time</p></article>",
-      "css": ".ds-card { background: #EADFCC; color: #1E1414; border-top: 0.4rem solid #9E2B25; padding: 1.25rem 1.3rem 1.4rem; font-family: Inter, sans-serif; } .ds-card h3 { font-family: \"Abril Fatface\", Palatino, serif; font-weight: 400; font-size: 1.7rem; margin: 0 0 0.45rem; }"
+      "description": "Square paper card with a brick top edge, for a service or a one-time offer.",
+      "html": "<article class=\"ds-card\"><h3>revamp</h3><p class=\"ds-price\"><span class=\"ds-amount\">$<span class=\"ds-blank\">___</span></span> <span class=\"ds-when\">one time</span></p></article>",
+      "css": ".ds-card { background: var(--card); color: var(--ink); border-top: 0.4rem solid var(--red); padding: 1.25rem 1.3rem 1.4rem; font-family: var(--sans); font-size: 1.0625rem; line-height: 1.6; } .ds-card h3 { font-family: var(--display); font-weight: 400; font-size: clamp(1.35rem, 2.4vw, 1.7rem); line-height: 1.05; margin: 0 0 0.45rem; } .ds-amount { font-family: var(--display); font-size: clamp(2.4rem, 5vw, 3.1rem); line-height: 1; color: var(--red); letter-spacing: 0.02em; } .ds-blank { font-family: var(--sans); font-weight: 700; letter-spacing: 0.14em; font-size: 0.72em; } .ds-when { color: var(--mute); font-size: 0.95rem; }"
+    },
+    {
+      "name": "Monthly card",
+      "kind": "card",
+      "refersTo": "card-ink",
+      "description": "Ink offer card. No brick edge. Prices in blush. Each line starts with a tilde.",
+      "html": "<article class=\"ds-ink\"><h3>monthly care</h3><p class=\"ds-price\"><span class=\"ds-amount\">$<span class=\"ds-blank\">___</span></span> <span class=\"ds-when\">per month</span></p><ul><li>hosting looked after</li><li>updates and fixes</li></ul></article>",
+      "css": ".ds-ink { background: var(--ink); color: var(--cream); border-top: 0.4rem solid var(--ink); padding: 1.25rem 1.3rem 1.4rem; font-family: var(--sans); font-size: 1.0625rem; line-height: 1.6; } .ds-ink h3 { font-family: var(--display); font-weight: 400; font-size: clamp(1.35rem, 2.4vw, 1.7rem); line-height: 1.05; margin: 0 0 0.45rem; color: var(--cream); } .ds-ink .ds-amount { font-family: var(--display); font-size: clamp(2.4rem, 5vw, 3.1rem); line-height: 1; color: var(--blush); letter-spacing: 0.02em; } .ds-ink .ds-blank { font-family: var(--sans); font-weight: 700; letter-spacing: 0.14em; font-size: 0.72em; } .ds-ink .ds-when { color: var(--paper); font-size: 0.95rem; } .ds-ink ul { list-style: none; margin: 0.3rem 0 0; padding: 0.85rem 0 0; border-top: 1px solid #5A4A45; } .ds-ink li + li { margin-top: 0.35rem; } .ds-ink li::before { content: \"~\"; margin-inline-end: 0.45rem; }"
     },
     {
       "name": "Field",
       "kind": "input",
       "refersTo": "field",
-      "description": "Square ink-stroked field on the warm paper fill.",
-      "html": "<label class=\"ds-label\" for=\"ds-name\">Name</label><input class=\"ds-field\" id=\"ds-name\" type=\"text\">",
-      "css": ".ds-label { display: block; font-family: Inter, sans-serif; font-weight: 600; margin-bottom: 0.35rem; color: #1E1414; } .ds-field { width: 100%; min-height: 3.25rem; padding: 0.75rem 0.85rem; border: 1.5px solid #1E1414; background: #E7D9C4; color: #1E1414; font: 1rem Inter, sans-serif; } .ds-field:focus-visible { outline: 3px solid #9E2B25; outline-offset: 2px; }"
+      "description": "Square ink-stroked field on the warm fill. Brick caret, brick focus, invalid wash.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-name\">Name</label><input class=\"ds-field\" id=\"ds-name\" type=\"text\">",
+      "css": ".ds-field-label { display: block; font-family: var(--sans); font-weight: 600; margin-bottom: 0.35rem; color: var(--ink); } .ds-field { width: 100%; min-height: 3.25rem; padding: 0.75rem 0.85rem; border: 1.5px solid var(--ink); border-radius: 0; background: var(--field); color: var(--ink); caret-color: var(--red); font-family: var(--sans); font-size: 1.0625rem; } .ds-field:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; } .ds-field:user-invalid { border-color: var(--red); background: #F6E4DC; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Centered text links. Project request is brick. No bar.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"On this page\"><a href=\"#work\">Our work</a><a href=\"#practice\">What we do</a><a class=\"ds-nav-request\" href=\"#request\">Project request</a></nav>",
+      "css": ".ds-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.35rem 1.25rem; } .ds-nav a { min-height: 48px; display: inline-flex; align-items: center; color: var(--ink); font-family: var(--sans); font-weight: 600; font-size: 1.0625rem; text-underline-offset: 0.18em; text-decoration-thickness: 1px; } .ds-nav a:hover { color: var(--red); } .ds-nav a:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; } .ds-nav a.ds-nav-request { color: var(--red); }"
     },
     {
       "name": "Work plate",
       "kind": "custom",
-      "refersTo": "card-paper",
-      "description": "Empty circular plate. Label stays project coming soon until real work exists.",
+      "refersTo": "plate",
+      "description": "Circular plate with a brick ring shifted up and to the right.",
       "html": "<div class=\"ds-plate\"><span>project coming soon</span></div>",
-      "css": ".ds-plate { width: 10rem; height: 10rem; border: 2px solid #1E1414; border-radius: 50%; display: grid; place-items: center; text-align: center; background: #F7F1E7; color: #1E1414; font-family: Inter, sans-serif; font-weight: 600; padding: 1.15rem; position: relative; } .ds-plate::after { content: \"\"; position: absolute; inset: 0.45rem; border: 1.5px solid #9E2B25; border-radius: 50%; transform: translate(3px, -3px); }"
+      "css": ".ds-plate { width: 10rem; aspect-ratio: 1; display: grid; place-items: center; text-align: center; border: 2px solid var(--ink); border-radius: 50%; background: color-mix(in srgb, var(--cream) 70%, white); color: var(--ink); font-family: var(--sans); font-weight: 600; font-size: 0.95rem; line-height: 1.3; padding: 1.15rem; position: relative; } .ds-plate span { position: relative; z-index: 1; max-width: 9ch; } .ds-plate::after { content: \"\"; position: absolute; inset: 0.45rem; border: 1.5px solid var(--red); border-radius: 50%; transform: translate(3px, -3px); opacity: 0.8; }"
     },
     {
       "name": "Section label",
       "kind": "custom",
-      "refersTo": "card-paper",
-      "description": "Tracked brick label from the deck, set above a heading.",
-      "html": "<p class=\"ds-kicker\">the offer</p>",
-      "css": ".ds-kicker { margin: 0 0 0.4rem; color: #9E2B25; font-family: Inter, sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; }"
+      "refersTo": "section-label",
+      "description": "Tracked deck label set above a heading. Brick on cream.",
+      "html": "<p class=\"ds-section-label\">the offer</p>",
+      "css": ".ds-section-label { margin: 0 0 0.4rem; color: var(--red); font-family: var(--sans); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; }"
+    },
+    {
+      "name": "Crossed keys",
+      "kind": "custom",
+      "refersTo": "mark",
+      "description": "Two keys, ink and brick, with a faint misregistered ghost.",
+      "html": "<svg class=\"ds-mark\" viewBox=\"36 8 248 184\" role=\"img\" aria-label=\"Two crossed keys\"><defs><g id=\"ds-key\"><circle cx=\"0\" cy=\"0\" r=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\"/><rect x=\"22\" y=\"-4.5\" width=\"98\" height=\"9\" fill=\"currentColor\"/><rect x=\"30\" y=\"-13\" width=\"8\" height=\"26\" fill=\"currentColor\"/><rect x=\"86\" y=\"1\" width=\"8\" height=\"18\" fill=\"currentColor\"/><rect x=\"102\" y=\"1\" width=\"8\" height=\"26\" fill=\"currentColor\"/></g></defs><use href=\"#ds-key\" class=\"ds-ghost\" transform=\"translate(103 152) rotate(-40)\"/><use href=\"#ds-key\" class=\"ds-ghost ds-ghost-ink\" transform=\"translate(213 152) rotate(-140)\"/><use href=\"#ds-key\" class=\"ds-key-ink\" transform=\"translate(100 150) rotate(-40)\"/><g class=\"ds-shift\"><use href=\"#ds-key\" class=\"ds-key-brick\" transform=\"translate(210 150) rotate(-140)\"/></g></svg>",
+      "css": ".ds-mark { width: min(16rem, 72vw); display: block; overflow: visible; } .ds-ghost { color: var(--red); opacity: 0.28; } .ds-ghost-ink { color: var(--ink); } .ds-key-ink { color: var(--ink); } .ds-key-brick { color: var(--red); } @media (prefers-reduced-motion: no-preference) { .ds-shift { animation: ds-settle 0.9s cubic-bezier(0.16, 1, 0.3, 1) both; } } @keyframes ds-settle { from { transform: translate(6px, -5px); } to { transform: none; } }"
+    },
+    {
+      "name": "Ownership row",
+      "kind": "custom",
+      "refersTo": "tick",
+      "description": "Ink panel row. A brick circle holds a drawn check, then an Abril title.",
+      "html": "<div class=\"ds-own\"><span class=\"ds-tick\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\"><path d=\"M5 12.5 10 17.5 19 7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"square\"/></svg></span><div><p class=\"ds-own-title\">you own the domain</p><p class=\"ds-own-note\">Registered to you, in your name.</p></div></div>",
+      "css": ".ds-own { display: grid; grid-template-columns: auto 1fr; gap: 0.85rem; align-items: start; background: var(--ink); color: var(--cream); border-top: 1px solid #5A4A45; padding: 1.15rem 0 1rem; } .ds-tick { width: 1.7rem; height: 1.7rem; border-radius: 50%; background: var(--red); color: var(--cream); display: grid; place-items: center; } .ds-tick svg { width: 1rem; height: 1rem; } .ds-own-title { font-family: var(--display); font-size: clamp(1.3rem, 2.4vw, 1.6rem); line-height: 1.15; margin: 0 0 0.2rem; } .ds-own-note { margin: 0; color: var(--paper); font-family: var(--sans); }"
     }
   ],
   "narrative": {
     "northStar": "A screen-printed studio sheet",
-    "overview": "Two Keys reads as one sheet of cream paper. Brick is the only accent. The crossed keys are the offer: creative direction and build-and-care, one door. Nothing on the page is a claim the pitch deck did not make.",
+    "overview": "Two Keys is one sheet of cream paper with a faint warm grain. Warm ink does the reading. One brick red does the accent work and fills the close. Abril Fatface is the display voice. Inter is the voice for sentences, labels, and fields. The mark is two crossed keys, one ink and one brick, set with a slight screen-print misregistration.\n\nThe print is flat. Hairline rules and a brick top edge on paper cards separate one block from the next. Depth is the surface: cream for the sheet, card stock for a paper card, ink for the ownership panel, the door bar, and the monthly card, and brick for the close. There is no glass and no rounded app chrome.\n\nDeck marks stay on the sheet. A tracked section label names the block. Abril numerals 01 and 02 mark the two problems. A tilde stands in front of each offer line. The submit line is display type on an ink button: unlock the door.",
     "keyCharacteristics": [
-      "Cream paper, warm black, one brick",
-      "Abril Fatface headlines, Inter text",
-      "Flat print: rules, square fields, no shadow",
-      "Crossed keys with a slight misregistration"
+      "Cream paper, warm ink, one brick",
+      "Abril Fatface display, Inter text",
+      "Flat print: hairline rules, no shadow, no glass",
+      "Crossed keys with a slight misregistration",
+      "Ink ownership panel, ink door bar, ink monthly card, brick close",
+      "Section labels, 01/02 numerals, and offer tildes"
     ],
     "rules": [
-      { "name": "One brick", "body": "Brick is the accent and the close. It is not a second theme and it is not used as small text on ink.", "section": "colors" },
-      { "name": "Deck copy only", "body": "Prices stay $___ and contact stays coming soon until the owner fills them in. No invented clients.", "section": "typography" }
+      {
+        "name": "The One Brick Rule",
+        "body": "Brick is the only accent on cream: the short rule, section labels, numerals, prices, the focus ring, the last step, and the close. On ink, the emphasis color is blush. Brick is not small text on an ink surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Ink Surfaces Rule",
+        "body": "Ink fills the door bar, the ownership panel, and the monthly card, and it is the submit button at rest. Type on those surfaces is cream.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Abril Fatface at weight 400 carries the name, section titles, prices, numerals, and the unlock line. Inter carries sentences, labels, navigation, and fields.",
+        "section": "typography"
+      },
+      {
+        "name": "The Deck Mark Rule",
+        "body": "Section labels, the 01 and 02 numerals, and the tilde before an offer line are part of the deck and stay. A section label is uppercase Inter at 0.78rem, weight 700, tracked 0.16em.",
+        "section": "typography"
+      },
+      {
+        "name": "The Single Sheet Rule",
+        "body": "The page is one centered column, at most 68rem, with 1.25rem of paper at each side. There is no sticky bar.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Print Rule",
+        "body": "Surfaces are flat. Depth is a change of color: cream, card, ink, brick. The shifted ghost key and the shifted ring on a plate are misregistration, not shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Controls Rule",
+        "body": "Buttons, fields, cards, and the form frame are square. Circles are the key bows, the work plates, the step numbers, and the ownership ticks.",
+        "section": "shapes"
+      }
     ],
     "dos": [
-      "Do keep the crossed keys as the mark.",
-      "Do keep placeholders visible.",
-      "Do use square fields and hairline rules."
+      "Do use cream paper, warm ink, and one brick, with Abril Fatface for display and Inter for text.",
+      "Do keep the crossed keys, one ink and one brick, with the slight misregistration.",
+      "Do keep section labels, the 01 and 02 numerals, and the offer tildes.",
+      "Do give paper cards a brick top edge and leave the monthly card ink, with no brick edge.",
+      "Do theme the selection, the caret, the scrollbar, and the focus ring from cream, ink, and brick."
     ],
     "donts": [
-      "Don't invent testimonials, clients, or prices.",
-      "Don't add shadows or glass.",
-      "Don't hardcode a personal email."
+      "Don't add drop shadows, glass, or blur.",
+      "Don't round buttons, fields, or cards.",
+      "Don't set small brick type on ink.",
+      "Don't add a sticky bar, or a hue besides brick and blush.",
+      "Don't replace the crossed keys with a wordmark-only header."
     ]
   }
 }
