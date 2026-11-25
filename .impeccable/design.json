@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-25T09:10:00Z",
+  "title": "Design System: Two Keys",
+  "extensions": {
+    "colorMeta": {
+      "cream": { "role": "neutral", "displayName": "Cream paper", "canonical": "#F3EBDD", "tonalRamp": ["#F3EBDD", "#EADFCC", "#E7D9C4", "#D9CBB6"] },
+      "ink": { "role": "neutral", "displayName": "Warm black", "canonical": "#1E1414", "tonalRamp": ["#1E1414", "#5A4A45", "#6B5A55", "#9C8B84"] },
+      "brick": { "role": "primary", "displayName": "Brick", "canonical": "#9E2B25", "tonalRamp": ["#9E2B25", "#E7A39C", "#F1C9C3"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Abril Fatface", "purpose": "Name, section titles, prices, and the unlock button." },
+      "body": { "displayName": "Inter", "purpose": "Reading text and the form. Required by the brief." },
+      "label": { "displayName": "Tracked label", "purpose": "Deck labels above headings. Uppercase, 0.16em." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "settle", "value": "0.9s cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "One screen-print settle on the brick key. Off when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "name-email", "value": "40rem" },
+      { "name": "plates-and-columns", "value": "52rem" },
+      { "name": "steps-row", "value": "64rem" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Unlock button",
+      "kind": "button",
+      "refersTo": "button-unlock",
+      "description": "Full-width ink button. The words are the control: unlock the door.",
+      "html": "<button class=\"ds-unlock\" type=\"button\">unlock the door</button>",
+      "css": ".ds-unlock { width: 100%; min-height: 4.5rem; border: 0; background: #1E1414; color: #F3EBDD; font-family: \"Abril Fatface\", Palatino, serif; font-size: 2rem; cursor: pointer; padding: 0.6rem 1rem 0.75rem; } .ds-unlock:hover { background: #9E2B25; } .ds-unlock:focus-visible { outline: 3px solid #9E2B25; outline-offset: 3px; }"
+    },
+    {
+      "name": "Paper card",
+      "kind": "card",
+      "refersTo": "card-paper",
+      "description": "Square paper card with a brick top edge. Used for revamp and new build.",
+      "html": "<article class=\"ds-card\"><h3>revamp</h3><p>$___ one time</p></article>",
+      "css": ".ds-card { background: #EADFCC; color: #1E1414; border-top: 0.4rem solid #9E2B25; padding: 1.25rem 1.3rem 1.4rem; font-family: Inter, sans-serif; } .ds-card h3 { font-family: \"Abril Fatface\", Palatino, serif; font-weight: 400; font-size: 1.7rem; margin: 0 0 0.45rem; }"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Square ink-stroked field on the warm paper fill.",
+      "html": "<label class=\"ds-label\" for=\"ds-name\">Name</label><input class=\"ds-field\" id=\"ds-name\" type=\"text\">",
+      "css": ".ds-label { display: block; font-family: Inter, sans-serif; font-weight: 600; margin-bottom: 0.35rem; color: #1E1414; } .ds-field { width: 100%; min-height: 3.25rem; padding: 0.75rem 0.85rem; border: 1.5px solid #1E1414; background: #E7D9C4; color: #1E1414; font: 1rem Inter, sans-serif; } .ds-field:focus-visible { outline: 3px solid #9E2B25; outline-offset: 2px; }"
+    },
+    {
+      "name": "Work plate",
+      "kind": "custom",
+      "refersTo": "card-paper",
+      "description": "Empty circular plate. Label stays project coming soon until real work exists.",
+      "html": "<div class=\"ds-plate\"><span>project coming soon</span></div>",
+      "css": ".ds-plate { width: 10rem; height: 10rem; border: 2px solid #1E1414; border-radius: 50%; display: grid; place-items: center; text-align: center; background: #F7F1E7; color: #1E1414; font-family: Inter, sans-serif; font-weight: 600; padding: 1.15rem; position: relative; } .ds-plate::after { content: \"\"; position: absolute; inset: 0.45rem; border: 1.5px solid #9E2B25; border-radius: 50%; transform: translate(3px, -3px); }"
+    },
+    {
+      "name": "Section label",
+      "kind": "custom",
+      "refersTo": "card-paper",
+      "description": "Tracked brick label from the deck, set above a heading.",
+      "html": "<p class=\"ds-kicker\">the offer</p>",
+      "css": ".ds-kicker { margin: 0 0 0.4rem; color: #9E2B25; font-family: Inter, sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A screen-printed studio sheet",
+    "overview": "Two Keys reads as one sheet of cream paper. Brick is the only accent. The crossed keys are the offer: creative direction and build-and-care, one door. Nothing on the page is a claim the pitch deck did not make.",
+    "keyCharacteristics": [
+      "Cream paper, warm black, one brick",
+      "Abril Fatface headlines, Inter text",
+      "Flat print: rules, square fields, no shadow",
+      "Crossed keys with a slight misregistration"
+    ],
+    "rules": [
+      { "name": "One brick", "body": "Brick is the accent and the close. It is not a second theme and it is not used as small text on ink.", "section": "colors" },
+      { "name": "Deck copy only", "body": "Prices stay $___ and contact stays coming soon until the owner fills them in. No invented clients.", "section": "typography" }
+    ],
+    "dos": [
+      "Do keep the crossed keys as the mark.",
+      "Do keep placeholders visible.",
+      "Do use square fields and hairline rules."
+    ],
+    "donts": [
+      "Don't invent testimonials, clients, or prices.",
+      "Don't add shadows or glass.",
+      "Don't hardcode a personal email."
+    ]
+  }
+}
